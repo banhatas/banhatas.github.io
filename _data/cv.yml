@@ -2,96 +2,63 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Tyler Christensen
     - name: Date of Birth
-      value: 14th March 1879
+      value: April 27th, 2000
     - name: Languages
-      value: English, German
+      value: English, Japanese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. Applied and Computational Mathematics
+      institution: Brigham Young University
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Data Science and Machine Learning Concentration
+        - GPA: 3.23
+        - title: Relevant Coursework
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Linear/Nonlinear Analysis
+            - Computation and Optimization
+            - Statistics
+            - Mathematical Programming
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Science Intern
+      institution: Applied Invention
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Created a data analytics platform for clients involving ETL tools
+        - Analyze correlations between Google Trends and relevant market data using Python and SQL
+        - Developed an algorithm to find over 40 areas similar to clients’ existing markets wherein they could start services
+
+    - title: Research Assistant
+      institution: BYU Mathematics Department
+      year: 2021 - Now
       description:
-        - Description 1.
-        - Description 2.
+        - Furthering psychological research in predicting addictive behavior in humans
+        - Implementing machine learning pipelines with a set of over 270 features
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Lighting Technician/Designer
+      institution: BYU College of Fine Arts and Communication
+      year: 2018 - Now
       description:
+        - Supervise as Master Electrician for two dance teams on international tours
+        - Maintain, program, and install networks for nine different theater spaces at BYU
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Relevant Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Department of Defense MURI
+      year: 2021 - 2023
+      description:
+        - Implemented and optimized machine learning data pipelines in order to predict human behavior using MRI and social network data
+        - Author on an interdisciplinary research project with team members from multiple universities
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Edinburgh International Fringe Festival
+      year: Summer 2023
+      description:
+      - Design, program, and maintenance of a lighting rig for a sold out 2 week show on an international tour

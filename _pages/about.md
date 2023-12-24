@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Researcher. Data Scientist. Gamer.
+subtitle: Machine Learning Researcher. Data Scientist. Mathematician.
 
 profile:
   align: right
@@ -18,6 +18,10 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+Experienced Mathematics and Machine Learning Research Assistant at Brigham Young University. Tyler has worked on multiple projects from market analysis to predicting human behavior. For over 5 years, Tyler has had experience in several different roles allowing him to learn, develop, and fine-tune his skillset.
+
+TODO: Get rid of the following:
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

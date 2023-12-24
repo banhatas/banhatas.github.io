@@ -38,9 +38,9 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               {%- for page in site.pages -%}
-                {% if page.permalink == '/' %}
-                  {% assign about_title = page.title %}
-                {% endif %}
+                  {% if page.permalink == '/' %}
+                    {% assign about_title = page.title %}
+                  {% endif %}
               {% endfor %}
 
               <!-- About -->
@@ -65,6 +65,7 @@
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
+              {% unless p.exclude %}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
@@ -93,6 +94,7 @@
               </li>
               {%- endif -%}
               {%- endif -%}
+              {%- endunless -%}
               {% endfor -%}
               {%- if site.enable_darkmode %}
 
