@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://banhatas.github.io/al-folio/sitemap.xml
+Sitemap: https://banhatas.github.io/sitemap.xml
