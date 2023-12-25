@@ -3,8 +3,10 @@
   contents:
     - name: Full Name
       value: Tyler Christensen
-    - name: Date of Birth
-      value: April 27th, 2000
+    - name: Age
+      value: 23
+    - name: Currently Located
+      value: Provo, UT
     - name: Languages
       value: English, Japanese
 
@@ -16,7 +18,7 @@
       year: 2024
       description:
         - Data Science and Machine Learning Concentration
-        - GPA: 3.23
+        - GPA 3.23
         - title: Relevant Coursework
           contents:
             - Linear/Nonlinear Analysis

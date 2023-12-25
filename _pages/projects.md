@@ -3,7 +3,7 @@ exclude: false
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Below you will find several projects Tyler has done for work, school, and personal enjoyment.
 nav: true
 nav_order: 2
 display_categories: [work, fun]
