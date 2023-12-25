@@ -2,7 +2,7 @@
 layout: page
 title: MTG Price Predictor
 description: Using PyTorch models to predict prices of Magic the Gathering cards
-img: assets/img/12.jpg
+img: assets/img/neural_net.jpg
 importance: 1
 category: work
 related_publications: 
